@@ -1,0 +1,74 @@
+.logo-guessing-game {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.game-stats {
+  display: flex;
+  gap: 15px;
+}
+
+.difficulty-selector select {
+  margin-left: 10px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.current-logo {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.guess-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.guess-buttons button {
+  padding: 10px 15px;
+  background-color: #a99de6;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.guess-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.guess-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.game-over-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.game-over-container button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
